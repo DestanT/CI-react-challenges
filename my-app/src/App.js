@@ -10,13 +10,12 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
     return (
         <div className={css.App}>
-          <NavBarForm />
-          <Sidebar />
-          <Content />
+          <ControlledForm />
         </div>
     );
 }
