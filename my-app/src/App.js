@@ -17,7 +17,7 @@ import SearchBar from './components/SearchBar';
 function App() {
     return (
         <div className={css.App}>
-          <SearchBar />
+          <Content />
         </div>
     );
 }
