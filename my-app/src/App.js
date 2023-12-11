@@ -13,11 +13,12 @@ import Content from './components/Content';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 function App() {
     return (
         <div className={css.App}>
-          <Content />
+          <ControlledFormHooks />
         </div>
     );
 }
