@@ -18,11 +18,12 @@ import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import ContentHooks from './components/ContentHooks';
 
 function App() {
     return (
         <div className={css.App}>
-          <UseEffectCounterContainer />
+          <ContentHooks />
         </div>
     );
 }
