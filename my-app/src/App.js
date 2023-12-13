@@ -21,11 +21,12 @@ import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import ContentHooks from './components/ContentHooks';
 import HTTPRequests from './components/HTTPRequests';
 import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
     return (
         <div className={css.App}>
-          <HTTPPost />
+          <HTTPHooks />
         </div>
     );
 }
